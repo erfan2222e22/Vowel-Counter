@@ -1,0 +1,103 @@
+* {
+
+
+    box-sizing: border-box;
+
+    overflow-y: none;
+
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: rgb(15, 54, 61);
+    background: linear-gradient(90deg, rgba(15, 54, 61, 1) 0%, rgba(0, 6, 33, 1) 31%, rgba(0, 0, 0, 1) 100%, rgba(0, 36, 12, 1) 100%, rgba(21, 81, 92, 1) 100%, rgba(9, 13, 24, 1) 100%, rgba(0, 0, 0, 1) 100%, rgba(0, 0, 0, 0.9762931034482759) 100%);
+    color: rgba(27, 227, 194, 1);
+}
+
+.text {
+
+    display: block;
+    margin: 0 auto;
+    height: 200px;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 20px;
+    width: 500px;
+    resize: none;
+    background-color: rgb(14, 57, 65);
+    color: #ffff;
+    position: relative;
+    top: 100px;
+
+}
+
+.text:hover {
+    border: 8px solid rgba(27, 227, 194, 1);
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    width: 130px;
+    display: block;
+    margin: 0 auto;
+    height: 50px;
+    border-radius: 20px;
+    background-color: rgb(61, 61, 61);
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 20px;
+    position: relative;
+    left: 170px;
+    bottom: 60px;
+    top: 20px;
+}
+
+button:hover {
+    background-color: rgb(0, 253, 211);
+    color: black;
+}
+
+.continer {
+
+
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    bottom: 190px;
+
+}
+
+
+.vovels-div,
+.Consonants-div {
+
+    position: relative;
+
+    left: 600px;
+    width: 300px;
+    border: 1px solid rgb(0, 253, 211);
+    margin: 0 auto;
+    border-radius: 10px;
+    left: 10px;
+
+}
+
+.vovel-a,
+.vovel-e,
+.vovel-i,
+.vovel-o,
+.vovel-u {
+
+
+
+
+    text-align: center;
+    border: 1px solid;
+    position: relative;
+    top: 100px;
+    border-radius: 10px;
+}
